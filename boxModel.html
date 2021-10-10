@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1: BOX MODEL</title>
+    <style>
+        div{
+            border: 3px solid red;
+            padding: 3px;
+            margin: 5px;
+        }
+        .fill{
+            background-color: rgb(236, 245, 153);
+            color: rgb(48, 14, 1);
+
+        }
+        span{
+            border: 5px solid rgb(4, 68, 9);
+            padding: 3px;
+            margin: 2px;
+        }
+        body{
+            background: url(backgroundIMG.jpg);
+            
+        }
+        
+    </style>
+</head>
+<body alink="red" vlink="green" >
+    <h1 style="color: darkblue; text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Question1: Introduction to box model in CSS</h1>
+
+     <h2><u><b>The CSS Box Model</b>  </u></h2>
+     <div>
+         <p>
+            CSS box model is a container which contains multiple properties including <strong> borders, margin, padding and the content itself.</strong>
+         It is used to create the <b>design and layout of web pages</b>. It can be used as a toolkit for customizing the layout of different elements. The web browser renders every element as a rectangular box according to the CSS box model. 
+         </p>
+         <p>Box-Model has multiple properties in CSS. Some of them are given below: </p>
+         <ul>
+             <li>Margins</li>
+             <li>Borders</li>
+             <li>Padding</li>
+             <li>Content</li>
+         </ul>
+        
+            <dl>
+                <dt><mark>Border Area:</mark></dt>
+                <dd>It is the area between the box’s padding and margin. Its dimensions are given by the width and height of border.</dd>
+                <dt><mark>Margin Area:</mark></dt>
+                <dd>This area consists of space between border and margin. The dimensions of Margin area are the margin-box width and the margin-box height. It is useful to separate the element from its neighbors.</dd>
+                <dt><mark>Padding Area:</mark></dt>
+                <dd> It includes the element’s padding. This area is actually the space around the content area and within the border box. Its dimensions are given by the width of the padding-box and the height of the padding-box.</dd>
+                <dt><mark>Content Area:</mark></dt>
+                <dd> This area consists of content like text, image, or other media content. It is bounded by the content edge and its dimensions are given by content box width and height.</dd>
+    
+            </dl>
+            <a href="boxExample.html" target="_blank"><h3>For Example</h3></a>
+        
+         <span class="fill">For better understanding see the image of box model as given below   </span>
+        </div>
+        <figure style="text-align: center;"> 
+               <img src="boxIimage.png" alt="box model image" height="20%" width="20%">  
+            <figcaption>Diagram of box model</figcaption>
+            </figure>
+               <a href="boxExample.html" target="_blank"><h2>For Example click it</h2></a>
+            <pre style="font-size: 20px; text-align: center;">
+                Name: Ayush Gautam
+                Roll no: 2006155
+                <a href="https://ayushgautam07.github.io/cssLabAssignment/flex.html" target="_blank">Question 2</a>
+            </pre>
+            </body>             
+</html>
